@@ -1,0 +1,76 @@
+body {
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  background-image: url('./resources/subtle_grunge.png');
+}
+
+#app {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#movie-list {
+  width: 400px;
+}
+
+#search-bar {
+  font-size: 15px;
+  height: 30px;
+  width: 400px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.movie-item {
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+#movie-detail {
+  width: 400px;
+}
+
+.loading {
+  margin-top: 10px;
+}
+
+.hidden {
+  margin-top: 10px;
+  visibility: hidden;
+}
+
+.detail-poster {
+  margin-top: 10px;
+  width: 300px;
+  height: 450px;
+}
+
+.detail-title {
+  margin-top: 10px;
+  font-size:16pt;
+}
+
+.detail-release-date {
+  margin-top: 10px;
+}
+
+.detail-score {
+  margin-top: 10px;
+}
+
+.detail-genres {
+  margin-top: 10px;
+}
+
+.detail-overview {
+  margin-top: 10px;
+}
+
+.detail-cast {
+  margin-top: 10px;
+}
+
+.detail-related {
+  margin-top: 20px;
+}
