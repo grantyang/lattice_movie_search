@@ -1,11 +1,11 @@
-#Lattice Take Home
+# Lattice Take Home
 
-###Setup
+### Setup
 
 Create a file named '.env' in the /server directory with the following contents:
 > API_KEY=*YOUR API KEY HERE*
 
-###Server
+### Server
 From the top-level directory, run the following commands:
 
 ``` cd server```
@@ -14,7 +14,7 @@ From the top-level directory, run the following commands:
 
 ```npm run devStart```
 
-###Client
+### Client
 From the top-level directory, run the following commands:
 
 ``` cd client```
